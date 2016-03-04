@@ -34,7 +34,7 @@ function search(terms, cb) {
 }
 
 function luckySearch(terms, cb) {
-  return search('concat', function (err, searchResult) {
+  return search(terms, function (err, searchResult) {
     var firstResult = _.get(searchResult, 'documents.0.url');
     return cb(err, firstResult);
   });
