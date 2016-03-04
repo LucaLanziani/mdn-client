@@ -1,6 +1,6 @@
 {
   "name": "mdn-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy way to search through mdn documentation (JS only)",
   "main": "index.js",
   "scripts": {
